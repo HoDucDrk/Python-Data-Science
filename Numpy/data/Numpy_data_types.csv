@@ -1,0 +1,16 @@
+Type," Type code"," Description"
+"int16, uint16","i2, u2 ","Các kiểu số nguyên 16 bit có dấu và không dấu "
+"int32, uint32 ","i4, u4","Các kiểu số nguyên 32bit có dấu và không dấu "
+"int64, uint64 ","i8, u8","Các kiểu số nguyên 64bit có dấu và không dấu "
+"int8, uint8","i1, u1","Các kiểu số nguyên 8 bit (1 byte) có dấu và không dấu "
+float16,f2,Dấu chấm động nửa chính xác
+float32,f4 or f,Dấu phẩy động chính xác đơn tiêu chuẩn; tương thích với C float
+float64,f8 or d,Dấu phẩy động chính xác kép tiêu chuẩn; tương thích với đối tượng float C double và Python
+float128,f16 or g,Dấu chấm động chính xác mở rộng
+complex64,c8,"Các số phức được biểu thị bằng hai số nổi 32, 64 hoặc 128 tương ứng"
+complex128,c16,
+complex256,c32,
+bool,?,Kiểu boolean lưu trữ các giá trị Đúng và Sai
+object,O,Kiểu đối tượng Python; một giá trị có thể là bất kỳ đối tượng Python nào
+string_,S,"Kiểu chuỗi ASCII có độ dài cố định (1 byte cho mỗi ký tự); ví dụ: để tạo loại chuỗi có độ dài 10, hãy sử dụng 'S10'"
+unicode_,U,Loại Unicode có độ dài cố định (số byte dành riêng cho nền tảng); cùng ngữ nghĩa đặc tả như string_ (ví dụ: 'U10')
